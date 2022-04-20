@@ -1,5 +1,6 @@
 const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 
+// test comment
 class CadencePlugin {
   apply(compiler) {
     compiler.options.module.rules.unshift({
